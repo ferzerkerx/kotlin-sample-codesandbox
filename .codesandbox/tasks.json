@@ -1,5 +1,9 @@
 {
-  "setupTasks": [],
+  "setupTasks": [
+    {
+      "command": "gradle --no-daemon --refresh-dependencies --stacktrace --info build -x bootJar"
+    }
+  ],
 
   "tasks": {
     "start": {
