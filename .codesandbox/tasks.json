@@ -1,0 +1,15 @@
+{
+  "setupTasks": [],
+
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "gradle bootRun",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080,
+        "prLink": "direct"
+      }
+    }
+  }
+}
